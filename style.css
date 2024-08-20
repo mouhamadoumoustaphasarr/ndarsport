@@ -29,9 +29,9 @@
     font-weight: bold;
     transition: 0.3s;
     border-radius: 50%;
-    
-    
-    
+
+
+
 }
 
 .close:hover,
@@ -42,19 +42,21 @@
 
 }
 
-.rd{
+.rd {
     border-radius: 100%;
 }
 
 
-.sv{
-font-size: 24px;
+.sv {
+    font-size: 24px;
 }
 
 
-.navbar .navbar-toggler{
-    color: white;
-    background-color: brown;
-    
+.navbar-toggler:focus {
+    box-shadow: none !important;
 }
 
+.navbar-light .navbar-toggler-menu {
+    color: #fff;
+    font-size: 35px;
+}
